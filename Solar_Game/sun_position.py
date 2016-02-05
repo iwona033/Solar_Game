@@ -48,5 +48,5 @@ def elevation_to_panel_angle(elevation):
 
 def calc_panel_angle(latitude, longitude, day, LT):
     elevation = np.rad2deg(calc_elevation(latitude, longitude, day, LT))
-    panel_angle = elevation_to_panel_angle(elevaation)
+    panel_angle = elevation_to_panel_angle(elevation)
     return panel_angle
